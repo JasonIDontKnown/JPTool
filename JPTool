@@ -7,6 +7,23 @@ cat << "EOF"
   _  | | | |_) | | | / _ \  / _ \ | |
  | |_| | |  __/  | || (_) || (_) || |
   \___/  |_|     |_| \___/  \___/ |_|
-  
+        Jason Phishing Tool
   
 EOF
+echo "
+Test para engañar a tu victima:
+¿Quieres saber cual es el nombre del amor de tu vida? [01]
+Test del idiota - ¡Prueba si eres tonto ya! [02]"
+read -p "Elige un test"
+OPCION
+if["$OPCION"="1"];then
+echo "Se eligio el test 01"
+elif["$OPCION"="01"];then
+echo "Se eligio el test 01"
+elif["$OPCION"="2"];then
+echo "Se eligio el test 02"
+elif["$OPCION"="02"];then
+echo "Se eligio el test 02"
+else
+echo "Opcion invalida"
+fi
