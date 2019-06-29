@@ -14,7 +14,9 @@ echo "
 Test para engañar a tu victima:
 ¿Quieres saber cual es el nombre del amor de tu vida? [01]
 Test del idiota - ¡Prueba si eres tonto ya! [02]"
-read -p "Elige un test"
+echo ""
+echo "Elige una opcion"
+read -p
 OPCION
 if["$OPCION"="1"];then
 echo "Se eligio el test 01"
