@@ -6,5 +6,3 @@ cd JPTool
 chmod +x JPTool
 chmod +x update
 cd ..
-cd JPTool
-ls
