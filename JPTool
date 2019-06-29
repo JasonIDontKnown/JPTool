@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 clear
 cat << "EOF"
 
@@ -15,8 +15,7 @@ Test para engañar a tu victima:
 ¿Quieres saber cual es el nombre del amor de tu vida? [01]
 Test del idiota - ¡Prueba si eres tonto ya! [02]"
 echo ""
-echo "Elige una opcion"
-read -p
+read -p "Elige una opcion"
 OPCION
 if["$OPCION"="1"];then
 echo "Se eligio el test 01"
