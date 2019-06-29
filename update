@@ -5,4 +5,4 @@ git clone https://github.com/JasonIDontKnown/JPTool.git
 cd JPTool
 chmod +x JPTool
 chmod +x update
-cd ..
+./JPTool
